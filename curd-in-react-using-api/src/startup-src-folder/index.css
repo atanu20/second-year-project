@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box{
+  background-image: url(./image/gre.jpg);
+background-size: 100% 100%;
+
+width: 100%;
+height: 100vh;
+}
+
+.bgimg{
+  background-image: url(./image/nice.jpg);
+background-size: 100% 100%;
+
+width: 100%;
+height: 100vh;
+}
+.box3{
+ 
+    background-image: url(./image/cur.jpg);
+  background-size: 100% 100%;
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+
+coli{
+  font-size: 20px;
+}
+
+coli:hover{
+  
+  color:royalblue !important;
+
+}
+
+.active_class{
+  font-weight: bold;
+  border-bottom: 2px solid lime;
+  
+}
+
+ .box2{
+  margin-top:300px ;
+  height: 300px;
+  
+}
+
+.second{
+ 
+  padding:25px 0px ;
+  background-color: aliceblue;
+}
+
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+
+}
+ .animate{
+  animation:anim 2s linear infinite;
+  /* animation: anim 2s case-in-out infinite alternate-reverse; */
+}
+
+/* @-webkit-keyframes anim {
+0%{
+  transform: translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+}
+
+} */
+@keyframes anim {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+  
+  }
+
+  b{
+    color:red;
+    font-weight: bold;
+    font-size: 23px ;
+  }
+
+
+  
+
+
+
+  /* @media only screen and(max-width:600px)
+  {
+    b{
+      color: white;
+    }
+  } */
+
+
+
+.pos{
+  z-index: 2;
+}
+
+  .not-found{
+    position:absolute;
+    top:0;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+  }
+
+  .error{
+    width: 100%;
+    height: 100vh;
+   justify-content: center;
+    display: flex;
+    align-items: center;
+    
+  }
+  .error-page{
+   
+    height:300px ;
+    text-align: center;
+   
+  }
+
+  .text-error{
+    text-shadow: 3px 3px 2px grey;
+  }
+  .get-btn{
+    padding: 5px 10px ;
+    border-radius: 45%;
+    outline: none;
+
+    border: none;
+    border-top:2px solid mediumblue;
+    font-size: 20px;
+    background-color:lime;
+    
+    transition: 0.3s;
+
+  }
+  .get-btn:hover{
+background-color: transparent;
+box-shadow:5px 5px 5px green;
+  }
+
+  
